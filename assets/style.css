@@ -34,6 +34,19 @@ body {
     margin-left: 2rem;
 }
 
+/* stile button */
 #task {
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    padding: 10px;
     background-color: #47ADF1;
+}
+
+#section {
+    border-radius: 5px;
+    border: 1px solid #C5CBD0;
+    color: #CCD1D5;
+    background-color: white;
+    padding: 10px;
 }
