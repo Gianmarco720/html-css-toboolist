@@ -1,0 +1,14 @@
+header {
+    background-color: white;
+    font-family: 'Arial',  sans-serif;
+}
+
+#title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Arial',  sans-serif;
+}
