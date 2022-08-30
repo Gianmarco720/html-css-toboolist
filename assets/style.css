@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --check: #64C0A9;
+    --uncheck: #EB5851;
+    --editorial: #45ABEA;
+    --goals: #9C72E4;
+    --recruiting: #64C0A9;
+    --mobile: #F29E33;
+    --web: #D863A1;
+}
+
 header {
     background-color: white;
     font-family: 'Arial',  sans-serif;
@@ -49,4 +59,22 @@ body {
     color: #CCD1D5;
     background-color: white;
     padding: 10px;
+}
+
+.title_2 {
+    border-top: 1px solid #C5CBD0;
+    padding: 10px;
+}
+
+.check {
+    color: var(--check);
+    border: 1px solid var(--check);
+    border-radius: 50%;
+}
+
+.edit{
+    font-size: 11px;
+    background-color: var(--editorial);
+    border-radius: 5px;
+    padding: 5px;
 }
