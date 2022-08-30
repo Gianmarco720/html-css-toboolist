@@ -61,7 +61,7 @@ body {
     padding: 10px;
 }
 
-.title_2 {
+#title_2 {
     border-top: 1px solid #C5CBD0;
     padding: 10px;
 }
@@ -72,9 +72,20 @@ body {
     border-radius: 50%;
 }
 
-.edit{
+.uncheck {
+    color: var(--uncheck);
+    border: 1px solid var(--uncheck);
+    border-radius: 50%;
+}
+
+#edit_1{
     font-size: 11px;
     background-color: var(--editorial);
     border-radius: 5px;
     padding: 5px;
 }
+
+#title_3 {
+    padding: 10px;
+}
+
