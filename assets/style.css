@@ -32,7 +32,7 @@ body {
 
 .container {
     width: 790px;
-    height: 585px;
+    height: 800px;
     background-color: white;
     margin: auto;
     margin-top: 5%;
@@ -89,7 +89,7 @@ body {
     padding: 5px;
 }
 
-#title_3 {
+.title_3 {
     padding: 10px;
 }
 
@@ -121,3 +121,23 @@ body {
     padding: 5px;
 }
 
+#edit_6 {
+    font-size: 11px;
+    background-color: var(--web);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#edit_7 {
+    font-size: 11px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#edit_8 {
+    font-size: 11px;
+    background-color: var(--editorial);
+    border-radius: 5px;
+    padding: 5px;
+}
