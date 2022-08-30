@@ -74,12 +74,14 @@ body {
     color: var(--check);
     border: 1px solid var(--check);
     border-radius: 50%;
+    padding: 3px;
 }
 
 .uncheck {
     color: var(--uncheck);
     border: 1px solid var(--uncheck);
     border-radius: 50%;
+    padding: 3px;
 }
 
 #edit_1{
@@ -130,7 +132,7 @@ body {
 
 #edit_7 {
     font-size: 11px;
-    background-color: greenyellow;
+    background-color: green;
     border-radius: 5px;
     padding: 5px;
 }
