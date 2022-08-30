@@ -19,3 +19,21 @@ body {
     font-family: 'Arial',  sans-serif;
     background-color: #F6F8F9;
 }
+
+.container {
+    width: 790px;
+    height: 585px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+}
+
+.buttons {
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+#task {
+    background-color: #47ADF1;
+}
