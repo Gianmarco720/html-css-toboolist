@@ -66,6 +66,10 @@ body {
     padding: 10px;
 }
 
+.space {
+    padding: 10px;
+}
+
 .check {
     color: var(--check);
     border: 1px solid var(--check);
@@ -87,5 +91,33 @@ body {
 
 #title_3 {
     padding: 10px;
+}
+
+#edit_2 {
+    font-size: 11px;
+    background-color: var(--editorial);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#edit_3 {
+    font-size: 11px;
+    background-color: var(--goals);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#edit_4 {
+    font-size: 11px;
+    background-color: var(--recruiting);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#edit_5 {
+    font-size: 11px;
+    background-color: var(--mobile);
+    border-radius: 5px;
+    padding: 5px;
 }
 
