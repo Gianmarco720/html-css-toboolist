@@ -12,6 +12,7 @@
     --recruiting: #64C0A9;
     --mobile: #F29E33;
     --web: #D863A1;
+    --sales: #B0C926;
 }
 
 header {
@@ -39,12 +40,18 @@ body {
     border-radius: 0.5rem;
 }
 
+/* stile button e border */
 .buttons {
     padding: 1rem;
+    padding-bottom: 0.5rem;
     margin-left: 2rem;
 }
 
-/* stile button */
+.border_bottom{
+    border-bottom: 2px solid #F6F8F9;
+    margin-left: 0px;
+}
+
 #task {
     border-radius: 5px;
     border: 0px;
@@ -61,10 +68,10 @@ body {
     padding: 10px;
 }
 
-#title_2 {
+.border {
     border-top: 1px solid #C5CBD0;
-    padding: 10px;
 }
+/* fine button e border */
 
 .space {
     padding: 10px;
@@ -84,62 +91,41 @@ body {
     padding: 3px;
 }
 
-#edit_1{
+.badge_edit{
     font-size: 11px;
-    background-color: var(--editorial);
     border-radius: 5px;
     padding: 5px;
 }
 
-.title_3 {
-    padding: 10px;
-}
-
-#edit_2 {
-    font-size: 11px;
+/* colore badge */
+.edit_1{
     background-color: var(--editorial);
-    border-radius: 5px;
-    padding: 5px;
 }
 
-#edit_3 {
-    font-size: 11px;
+.edit_2 {
+    background-color: var(--editorial);
+}
+
+.edit_3 {
     background-color: var(--goals);
-    border-radius: 5px;
-    padding: 5px;
 }
 
-#edit_4 {
-    font-size: 11px;
+.edit_4 {
     background-color: var(--recruiting);
-    border-radius: 5px;
-    padding: 5px;
 }
 
-#edit_5 {
-    font-size: 11px;
+.edit_5 {
     background-color: var(--mobile);
-    border-radius: 5px;
-    padding: 5px;
 }
 
-#edit_6 {
-    font-size: 11px;
+.edit_6 {
     background-color: var(--web);
-    border-radius: 5px;
-    padding: 5px;
 }
 
-#edit_7 {
-    font-size: 11px;
-    background-color: #B0C926;
-    border-radius: 5px;
-    padding: 5px;
+.edit_7 {
+    background-color: var(--sales);
 }
 
-#edit_8 {
-    font-size: 11px;
+.edit_8 {
     background-color: var(--editorial);
-    border-radius: 5px;
-    padding: 5px;
 }
